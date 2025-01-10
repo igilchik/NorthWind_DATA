@@ -268,7 +268,7 @@ JOIN dim_date d ON f.date = d.date
 Graf zobrazuje `porovnanie dodávateľov na základe počtu objednávok`. Z grafu je zrejmé, že medzi dodávateľmi sú značné rozdiely v počte objednávok. Napríklad dodávateľ `Plutzer Lebensmittelgroßmärkte AG` zaznamenal najväčší počet objednávok **(42)**, zatiaľ čo iní dodávatelia, ako napríklad `Zaanse Snoepfabriek` a `Escargots Nouveaux`, mali výrazne nižší počet objednávok. <br>
 **Tieto údaje môžu byť použité na optimalizáciu spolupráce s dodávateľmi alebo na identifikáciu tých, ktorí by mohli vyžadovať väčšiu pozornosť pri zvyšovaní objemu predaja.**
 
-| <img src="./Comparing suppliers by order quantity.png"/> |
+| <img src="./Comparing_suppliers_by_order_quantity.png"/> |
 |:-:|
 |*Obrazok 5: Comparing suppliers by order quantity*|
 
@@ -287,7 +287,7 @@ ORDER BY total_orders DESC;
 Graf zobrazuje priemernú cenu objednávok `(AVG_ORDER_PRICE)`, ktoré spracovali jednotliví zamestnanci. Z grafu je viditeľné, že `Robert King` dosiahol najvyššiu priemernú cenu objednávok, a to **1171.9**, čím sa výrazne odlišuje od ostatných zamestnancov. Na druhej strane, `Michael Suyama` má najnižšiu priemernú hodnotu objednávok medzi analyzovanými zamestnancami. <br>
 **Analyza môže pomôcť pri hodnotení ich výkonu a pri rozhodovaní o alokácii zdrojov na spracovanie objednávok.**
 
-| <img src="./Average amount of employee orders.png"/> |
+| <img src="./Average_amount_of_employee_orders.png"/> |
 |:-:|
 |*Obrazok 6: Average amount of employee orders*|
 
@@ -305,7 +305,7 @@ ORDER BY avg_order_price DESC;
 Tento vizuál zobrazuje `priemerné množstvo produktov na objednávku`, ktoré je rovné **24.60 jednotiek**. Tento jednoduchý ukazovateľ sumarizuje efektivitu objednávok a poskytuje informácie o tom, koľko položiek je priemerne zahrnutých v jednej objednávke. <br>
 **Tento údaj môže byť užitočný na sledovanie trendov v správaní zákazníkov, optimalizáciu logistiky a skladových zásob**
 
-| <img src="./Average quantity per order.png"/> |
+| <img src="./Average_quantity_per_order.png"/> |
 |:-:|
 |*Obrazok 7: Average amount of employee orders*|
 
@@ -319,7 +319,7 @@ FROM bridge_orders_products b;
 Tento vizuál zobrazuje `priemernú cenu objednávky`, ktorá dosahuje hodnotu **747.20 jednotiek meny** Táto metrika poskytuje prehľad o priemernej hodnote, ktorú zákazníci minú na jednu objednávku.<br>
 **Tento údaj je dôležitý pre pochopenie finančného správania zákazníkov a hodnotenia efektívnosti predaja.**
 
-| <img src="./Average order price.png"/> |
+| <img src="./Average_order_price.png"/> |
 |:-:|
 |*Obrazok 8: Average order price*|
 
@@ -334,7 +334,7 @@ FROM fact_orders f;
 Tento vizuál poskytuje jednoduchú metriku, ktorá ukazuje `celkový počet unikátnych objednávok` v analyzovanom období. Výsledkom je **196 objednávok**. <br>
 **Táto hodnota umožňuje získať základný prehľad o objeme spracovaných objednávok a môže slúžiť ako referenčný bod pre ďalšie analýzy**
 
-| <img src="./Total unique orders.png"/> |
+| <img src="./Total_unique_orders.png"/> |
 |:-:|
 |*Obrazok 9: Total unique orders*|
 
@@ -348,7 +348,7 @@ FROM bridge_orders_products b;
 Tento graf zobrazuje `mestá s najvyšším počtom objednávok`. Tento graf ukazuje, že všetky mestá majú približne rovnaký počet objednávok, ale lídrom v počte objednávok je mesto `Graz` s celkovým počtom objednávok **35**. <br>
 **Informácie môžu byť užitočné pre plánovanie logistických a marketingových aktivít v najviac aktívnych regiónoch.**
 
-| <img src="./Cities most orders.png"/> |
+| <img src="./Cities_most_orders.png"/> |
 |:-:|
 |*Obrazok 10: Cities most orders*|
 
@@ -367,7 +367,7 @@ ORDER BY total_orders DESC;
 Tento graf ilustruje počet objednávok rozdelených podľa mesiacov. Najviac objednávok bolo v mesiaci `január` **(85)**, nasledujú `december` **(81)**, `október` **(73)**, `august` **(69)** a `november` **(66)**. Mesiace s najnižším počtom objednávok sú `júl` **(59)**, `september` **(57)** a `február` **(28)**.<br>
 **Najvyššia aktivita je v zimných a jesenných mesiacoch, tato informacia môže byť užitočné pri plánovaní skladových zásob a marketingových kampaní.**
 
-| <img src="./Total orders by month.png"/> |
+| <img src="./Total_orders_by_month.png"/> |
 |:-:|
 |*Obrazok 11: Total orders by month*|
 
@@ -399,7 +399,7 @@ ORDER BY d.month;
 Tento graf zobrazuje vzťah medzi `celkovými príjmami` a `celkovými objednávkami` pre každého zamestnanca. Každý bod na grafe zodpovedá jednému zamestnancovi a ukazuje, ako počet objednávok **súvisí s celkovými príjmami**. Graf ukazuje závislosť medzi počtom objednávok a príjmami: zamestnanci s väčším počtom objednávok majú tendenciu vytvárať väčšie celkové príjmy. <br>
 **Analýza môže pomôcť určiť efektívnosť zamestnancov a ich príspevok k celkovým príjmom spoločnosti.**
 
-| <img src="./Dependence of total revenue per orders by employees.png"/> |
+| <img src="./Dependence_of_total_revenue_per_orders_by_employees.png"/> |
 |:-:|
 |*Obrazok 12: Dependence of total revenue per orders by employees*|
 
