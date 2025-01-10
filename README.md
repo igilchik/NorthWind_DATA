@@ -241,7 +241,7 @@ Výsledkom ETL procesu bolo efektívne a rýchle spracovanie údajov zo súborov
 
 Bolo vytvorených 9 vizualizácií, ktoré poskytujú komplexný prehľad o kľúčových metrikách a trendoch týkajúcich sa objednávok, zákazníkov, dodávateľov, zamestnancov, produktov a predaja.
 
-| <img src="./NorthWind_Analysis_Dashboard"/> |
+| <img src="./NorthWind_Analysis_Dashboard.png"/> |
 |:-:|
 |*Obrazok 3: Dashboard NorthWind datasetu*|
 
